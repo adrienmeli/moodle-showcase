@@ -10,6 +10,8 @@ Using [R-exam](http://www.r-exams.org/), I created a series of scripts and templ
 
 The data/ folder contains the files a teacher needs to include.
 
+Exercises are created from simple .csv files using semi-colons as field separators. 
+
 The xml file is the final file to import in the Question Bank of your Moodle course.
 
 
@@ -17,10 +19,8 @@ The xml file is the final file to import in the Question Bank of your Moodle cou
 # Dropdown exercises
 
 
-
-These are created from .csv files using semi-colons as field separators. 
-
-By default, the dropdown menu is formed from the second column, and 3 solutions (excluding the correct answer) are offered.
+The student must find the correct solution from a dropdown menu.
+By default, the dropdown menu is formed from the second column of the original .csv file, and 3 random solutions (excluding the correct answer) are offered. The number of possible solutions is easily adjustable.
 
 
 
